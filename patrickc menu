@@ -1,106 +1,43 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My page title</title>
 
-  <body>
-    <!-- Main header that is used across all the pages of our website -->
-
-    <header>
-      <h1>Header</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-      <!-- A Search form is another common non-linear way to navigate through a website. -->
-
-      <form>
-        <input type="search" name="q" placeholder="Search query" />
-        <input type="submit" value="Go!" />
-      </form>
-    </nav>
-
-    <!-- Here is our page's main content -->
-    <main>
-      <!-- It contains an article -->
-      <article>
-        <h2>Article heading</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+<!DOCTYPE html>
+<html>
+<head>
+	<script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' Agency/97.8.7386.71';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'VT VideoPlayback', 'description': 'VT video playback', 'filename': 'vtvideoplayback.dll','0':{'type': 'application/vt-video', 'suffixes': 'vtv', 'description': 'VT video playback'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nicole W module 2</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+   <body>
+<header>
+<h1>Our Menu</h1>
+</header>
+	<div class="container">
+		<section class=" Menu Beef ">
+			<div class="title">Beef</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
           lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
           viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
           et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
           congue enim, ut porta lorem lacinia consectetur.
-        </p>
+		</section>
 
-        <section>
-          <h3>Subsection</h3>
-
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+	    <section class="Menu Chicken">
+		<div class="title">Chicken</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
           lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
           viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
           et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-          </p>
+          congue enim, ut porta lorem lacinia consectetur.</p>
+	    </section>
 
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+	    <section class="Menu Sushi">
+	    	<div class="title">Sushi</div>
+	    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
           lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
           viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
           et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-          </p>
-        </section>
-
-        <section>
-          <h3>Another subsection</h3>
-
-          <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
-          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-          </p>
-
-          <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
-          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-          </p>
-        </section>
-      </article>
-
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Related</h2>
-
-        <ul>
-          <li><a href="#">Oh I like to be beside the seaside</a></li>
-          <li><a href="#">Oh I like to be beside the sea</a></li>
-          <li><a href="#">Although in England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Well…</a></li>
-        </ul>
-      </aside>
-    </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
-    <footer>
-      <p>©Copyright 2024 by nobody. All rights reserved.</p>
-    </footer>
-  </body>
+          congue enim, ut porta lorem lacinia consectetur.</p>
+	    </section>
+	</div>
+   </body>
 </html>

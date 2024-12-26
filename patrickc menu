@@ -4,132 +4,59 @@
   <meta charset="utf-8">
   
   <title>Patrick C Module 2</title>
+  <style>
+ div {
+  background-color: darkred;
+ }
+
+ #p1 {
+  width: 50%;
+  height: 50px;
+  border: 10px solid black;
+  float: top;
+  background-color: #FFFF00
+ }
+
+ #p2 {
+  width: 50%;
+  height: 50px;
+  border: 10px solid black;
+  float: center
+  background-color: #F028F0;
   
 
-   <style>
+ }
+ #p3 {
+  width: 50%;
+  height: 50px;
+  border: 10px solid black;
+  float: bottom;
+  background-color: blueviolet;
 
-body {
-  margin: 0;
-  padding: 0;
-      background-color: gray;
-   
+ }
+
+ 
+
 }
-
-#box{
-      background-color:blue;
-      padding: 10px 10px 10px 10px;
-      border: 3px solid black;
-      width: 100px;
-      height: 200px;
-      margin-top: 50px;
-      overflow: visible;
-}
-#content {
- background-color:#90EE90; //green;
-    }
-
-
-
 </style>
 </head>
+
+
+  
 <body>
-  <h1>Beef</h1>
-  <div id="box">
-      <div id="content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </div>
-    </div>
-    <style>
-body {
-  margin: 0;
-  padding: 0;
-      background-color: gray;
-}
+<p><h6><left>Beef</left></h6>
+<div>
+  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+  <p><h6><right>Chicken</right></h6>
+<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+ <p><h6><center>Sushi</center></h6>
+ <p id="p3">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+</p>
+</div>
 
-#box{
-      background-color:darkred;
-      padding: 10px 10px 10px 10px;
-      border: 5px solid black;
-      margin: 40px;
-      width:100px;
-      height: 200px;
-      margin-top: 50px;
-      overflow: visible;
-
-}
-#content {
- background-color:#90EE90; //green;
-    }
-
-      
-    
-
-</style>
-</head>
-<body>
-  <h1>Chicken</h1>
-  <div id="box">
-      <div id="content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </div>
-    </div>
-    <style>
-      *{
-        box-sizing: border-box;
-      }
-      body {
-  margin: 0;
-  padding: 0;
-      background-color: gray;
-}
-
-#box{
-      background-color:yellow;
-      padding: 10px 10px 10px 10px;
-      border: 5px solid black;
-      margin: 40px;
-      width:100px;
-       height: 200px;
-        margin-top: 50px;
-      overflow: visible;
-}
-#content {
- background-color:#90EE90; //green;
-    }
-      </section>
-      </style>
-
-   
-
-</style>
-</head>
-<body>
-  <h1>Chicken</h1>
-  <div id="box">
-      <div id="content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      </div>
-    </div>
-    <style>
-      body {
-  margin: 0;
-  padding: 0;
-      background-color: gray;
-}
-
-#box{
-      background-color:yellow;
-      padding: 10px 10px 10px 10px;
-      border: 5px solid black;
-      margin: 40px;
-      width:100px;
-      
-
-}
-#content {
- background-color:#90EE90; //green;
-    }
-      </section>
-      </style>
-        
-      </section>
-  </div>
+  <h1> Enjoy our delicious meals.</h1>
+<div id="bg">Yum!</div> 
+</p>
    </body>
 </html>

@@ -3,60 +3,34 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Patrick C Module 2</title>
-  <style>
- div {
-  background-color: darkred;
- }
+  <title>Patrick C Module 3</title>
+   
+ <h2>Beef</h2>
+ <black_box {
+    width:500px;
+    height:200px;
+    background:#000;
+    float:left;
+    border:2px solid #000;
+    outline: 1px dashed #fff;
+}>
 
- #p1 {
-  width: 50%;
-  height: 50px;
-  border: 10px solid black;
-  float: top;
-  background-color: #FFFF00
- }
-
- #p2 {
-  width: 50%;
-  height: 50px;
-  border: 10px solid black;
-  float: center
-  background-color: #F028F0;
-  
-
- }
- #p3 {
-  width: 50%;
-  height: 50px;
-  border: 10px solid black;
-  float: bottom;
-  background-color: blueviolet;
-
- }
-
- 
-
-}
-</style>
+<img src="C:\Users\Patrick Ching\Desktop\beef.jpg">
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ <h3>Chicken</h3>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+ <h4>Sushi</h4>
+ <img src="C:\Users\Patrick Ching\Desktop\sushi.jpeg">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 </head>
-
-
-  
 <body>
-<p><h6><left>Beef</left></h6>
-<div>
-  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-  <p><h6><right>Chicken</right></h6>
-<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
- <p><h6><center>Sushi</center></h6>
- <p id="p3">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-</p>
-</div>
+  <body style="background-color:#cfcfcf";>
+  <b>Our Menu</b>
+  <b>Chicken</b>
 
-  <h1> Enjoy our delicious meals.</h1>
-<div id="bg">Yum!</div> 
-</p>
-   </body>
+  <img src="C:\Users\Patrick Ching\Desktop\chicken.jpg">
+  " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+</body>
 </html>
